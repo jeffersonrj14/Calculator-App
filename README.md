@@ -9,7 +9,7 @@
     <a href="https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29"><strong>Frontend Mentor Challenge</strong></a>
     <br />
     <br />
-    <a href="https://jeffersonrj14.github.io/frontendmentor-solution/solution/newbie/recipe-page-tailwind/src/index.html">View Demo</a>
+    <a href="https://calculator-app-rj-jefferson.vercel.app/">Live Preview</a>
   </p>
 </div>
 
@@ -67,8 +67,8 @@ Users should be able to:
 
 ### Links
 
-- Github Repo Url:
-  [github.com/jeffersonrj14/Calculator-App](https://github.com/jeffersonrj14/Calculator-App)
+- Github Repo URL:
+  [https://github.com/jeffersonrj14/Calculator-App](https://github.com/jeffersonrj14/Calculator-App)
 - Solution URL: [Add solution URL here](https://github.com/jeffersonrj14/Calculator-App)
 - Live Site URL:
   [https://calculator-app-rj-jefferson.vercel.app/](https://calculator-app-rj-jefferson.vercel.app/)
@@ -92,26 +92,11 @@ Users should be able to:
 ### My Objective
 
 I practiced this solution using TypeScript since I'm currently still learning it and want to try
-using it in projects.
+using it in this projects.
 
-### What I learned
+### What I Learned
 
-I learned how to change the theme without using Tailwind's built-in method. Normally, I use Tailwind
-and configure it like this: `(darkMode:'class')`
-
-```js
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}'
-  ],
-  darkMode: 'class',
-  theme: [],
-  plugins: []
-}
-```
+This side project was quite challenging for me. However, through this experience, I've gained a solid understanding of how to implement the calculator logic and handle various edge cases effectively. This project has significantly improved my problem-solving skills and my ability to apply TypeScript in practical scenarios.
 
 ### Continued Development
 
@@ -165,40 +150,3 @@ pnpm store prune
 
 - Website - [RJ Jefferson](https://links.jeffersonrj.com)
 - Frontend Mentor - [@jeffersonrj14](https://www.frontendmentor.io/profile/jeffersonrj14)
-
-<!-- # React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md)
-  uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses
-  [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable
-type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname
-  }
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to
-  `plugin:@typescript-eslint/recommended-type-checked` or
-  `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add
-  `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list -->
